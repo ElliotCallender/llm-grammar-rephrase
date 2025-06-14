@@ -1,0 +1,11 @@
+GUI which lets you inject text into custom prompts. Hooks to DeepSeek by default.
+
+Columns allow quick editing / reformatting of responses; there are buttons to cycle prompts and responses. "Enter" to send requests (or copy responses in the final row).
+
+Hacky implementation; lots of redundant widget definitions could be made with template functions.
+
+To use:
+1. Install flet, deepseek, and pyperclip
+2. Replace the strings in api_keys.json with your keys; allows multiple keys for parallel requests.
+3. Edit the prompts in prompts.json to your liking.
+4. Run main.py
