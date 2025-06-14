@@ -1,0 +1,101 @@
+{
+    "rephraseWrapper": {
+        "beginning": "Please rephrase the following sentence fragments: \"",
+        "end": "\""
+    },
+    "first": {
+        "0": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "The dogs here have little preference between spending time with or without friends. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "This picture looks [",
+            "end": "]."
+        },
+        "1": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "The dogs here have little preference between spending time with or without friends. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "This looks [",
+            "end": "]."
+        },
+        "2": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "The dogs here have little preference between spending time with or without friends. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "It appears [",
+            "end": "]."
+        },
+        "3": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "The dogs here have little preference between spending time with or without friends. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "[",
+            "end": "]."
+        },
+        "descriptors": ""
+    },
+    "second": {
+        "0": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "Though the dogs here prefer being with friends, they\u2019re also happy on their own. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "The speaker uses a [",
+            "end": "] style."
+        },
+        "1": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "Though the dogs here prefer being with friends, they\u2019re also happy on their own. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "The person's speaking style is [",
+            "end": "]."
+        },
+        "descriptors": ""
+    },
+    "third": {
+        "0": {
+            "system": "Hello! You are a grammar parsing system which cleans and expands the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please rephrase the following sentence fragments: \"These dogs enjoy [bread, running, sports, with or without friends, especially treats, couch sleeping].\"",
+            "assistant": "Though the dogs here prefer being with friends, they\u2019re also happy on their own. They like to play sports, including running; they love foods, especially treats and bread; and they enjoy sleeping on the couch.",
+            "beginning": "[",
+            "end": "]."
+        },
+        "descriptors": ""
+    },
+    "grammar": {
+        "0": {
+            "system": "Hello! You are a grammar conversion system which diversifies the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please insert a referential \"which\", \"that\" or \"who\": \"Clouds drift across the summit; below, lichen clings to grey rock. A storm is brewing.\"",
+            "assistant": "A storm is brewing. Clouds drift across the summit, below which lichen clings to grey rock.",
+            "beginning": "Please insert a referential \"which\", \"that\" or \"who\": \"",
+            "end": "\""
+        },
+        "1": {
+            "system": "Hi! You are a grammar conversion system which diversifies the structure of sentences while preserving their meaning. Please do not explain your reasoning.",
+            "user": "Please invert the reference order by delaying the subject: \"The shaggy brown dog chases the cat, its fur flopping wildly. While the dog gallops uncoordinatedly, the sleek and fluid cat stays just out of reach.\"",
+            "assistant": "While the dog gallops uncoordinatedly, the sleek and fluid cat stays just out of reach, chased by the shaggy brown dog whose fur flops wildly.",
+            "beginning": "Please invert the reference order by delaying the subject: \"",
+            "end": "\""
+        },
+        "2": {
+            "system": "Hello! You are a grammar conversion system which diversifies the structure of sentences while preserving their meaning. It's critical that the syntax reads well. Please do not explain your reasoning.",
+            "user": "Please insert a semicolon: \"The sun sets over the horizon, casting a warm glow across the sky as the stars begin to twinkle. It's nighttime, so the wind is cool.\"",
+            "assistant": "The sun sets over the horizon, casting a warm glow across the sky; the stars begin to twinkle. The nighttime wind is cool.",
+            "beginning": "Please insert a semicolon: \"",
+            "end": "\""
+        },
+        "3": {
+            "system": "Hi! You are a grammar conversion system which improves sentential flow while preserving meaning. Please do not explain your reasoning.",
+            "user": "Please invert the adverbial reference order: \"The river flows swiftly, its waters sparkling in the sunlight. The trees along the bank sway gently in the breeze, which carries sand over concrete nearby.\"",
+            "assistant": "The river flows swiftly, sparking sunlight in its waters. The trees along the bank gently sway in the breeze, which carries sand over nearby concrete.",
+            "beginning": "Please invert the adverbial reference order: \"",
+            "end": "\""
+        },
+        "4": {
+            "system": "Hello! You are a grammar conversion system which improves sentential flow while preserving meaning. It's critical that the text reads well. Please do not explain your reasoning.",
+            "user": "Please gently split this into more sentences: \"The shaggy brown dog barrels forward in a loping, uncoordinated gallop, its dense fur flopping wildly with every bound. Its paws thud heavily against the ground, kicking up tufts of grass as it zigzags clumsily after the darting cat.\"",
+            "assistant": "The shaggy brown dog barrels forward in a loping, uncoordinated gallop. Its dense fur flops wildly and paws thud heavily with every bound. The clumsy zigzagging after the darting cat kicks up tufts of grass.",
+            "beginning": "Please gently split this into more sentences: \"",
+            "end": "\""
+        }
+    }
+}
